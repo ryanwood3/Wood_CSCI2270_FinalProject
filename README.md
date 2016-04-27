@@ -1,4 +1,20 @@
 # Wood_CSCI2270_FinalProject
 Final Project
 
-For my final project, I will be working alone.  I plan on taking the idea used in the zombie cities assignment and expand upon it.  Instead of having cities in different districts, I will instead create an airline.  The airline will have some cities that are connected and can be flown to while other cities cannot be.  Then, when the user runs the code, they can type in their start and end city and will be given different routes that they could take to get to their destination.  These routes would be found based upon the total price to fly to your destination, the shortest distance traveled, the least amount of layovers, excetera.  I could also add functions that have to do with different fees the airport can impose such as baggage fees, and it could also be expanded to give a list of times for flights so that the user could sign up for their perfect flight quickly and easily.  This would be interesting to construct because it could accomplish similar tasks that actual airlines' programs accomplish.
+Description:  I took assignment 12 and expanded upon it.  Instead of just creating a hash table with movies in it.  I created an entire movie store, where you can search for movies, find their information, rent movies, buy movies, and even manage the store.  When the program begins it prompts the user for a text file of the movie's stock.  From there you can either insert movies into the stock, or have the stock be based upon the text file that was read in.  You may also delete movies from the stock.  On the other end, you may search through the movies, print out a list of all of them, alphabetize the list, and view your shopping cart of the movies you have rented and bought as well as the total cost.
+HashTable.cpp contains the functions to run the program
+HashTable.h is the header file
+main.cpp is the driver file
+MovieStock.txt has information on movies so that they can quickly be read into the hash table.  In the text file each line must contain the title followed by the year followed by quantity and then price all separated by commas.
+
+How to run:  There are no command line arguments you simply run the program and follow the prompts.  If you wish to use a text file to quickly create you movie stock, you simply input the name text file at the beginning of the program.
+
+Dependencies: The text file, if you wish to use one, must be in the same directory as you program in order to run.  My program doesn't allow you to include any file with its path
+
+System Requirements:  The program was created in Linux, but should run on any operating system.  No system requirements.
+
+Group Members: None, I worked alone.
+
+Contributors: None
+
+Known Bugs: None that I know of yet
