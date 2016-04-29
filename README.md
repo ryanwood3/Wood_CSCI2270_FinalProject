@@ -7,7 +7,7 @@ HashTable.h is the header file
 main.cpp is the driver file
 MovieStock.txt has information on movies so that they can quickly be read into the hash table.  In the text file each line must contain the title followed by the year followed by quantity and then price all separated by commas.
 
-How to run:  There are no command line arguments you simply run the program and follow the prompts.  If you wish to use a text file to quickly create you movie stock, you simply input the name text file at the beginning of the program.
+How to run:  In order to run you must compile HashTable.cpp, HashTable.h, and main.cpp as well as any text file you want to use.  You are free to use my MovieStock.txt.  Other than that there are no command line arguments you simply run the program and follow the prompts.  If you wish to use a text file to quickly create you movie stock, you simply input the name text file at the beginning of the program.
 
 Dependencies: The text file, if you wish to use one, must be in the same directory as you program in order to run.  My program doesn't allow you to include any file with its path
 
